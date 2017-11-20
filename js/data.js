@@ -620,7 +620,7 @@ var data = {
               }
             }
           ]
-        },
+        }, 
         {
           'name': 'Dacey Bullers',
           'photo': 'http://dummyimage.com/214x148.png/5fa2dd/ffffff',
