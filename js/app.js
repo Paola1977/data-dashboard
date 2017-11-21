@@ -184,7 +184,7 @@ Morris.Donut({
                result = i++;
          }
         }
-    
+        
     //var porcentaje = (result * 100)/students.length
 
         var porcentaje = document.createElement('h1');
