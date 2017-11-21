@@ -1,5 +1,4 @@
 /*Estilos generales*/
-
 * {
     margin: 0px;
     padding: 0px;
@@ -8,7 +7,6 @@
     box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
 }
-
 body {
     background: #6b6d70;
     float: left;
