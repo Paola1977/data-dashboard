@@ -58,7 +58,7 @@ header .fa-bars {
 
 /*Seccion first*/
 
-.first {
+.menu {
     /*outline: 1px solid blue;*/
     width: 100%;
     margin-right: 0px;
@@ -66,14 +66,14 @@ header .fa-bars {
     justify-content: space-between;
 }
 
-.first .botones {
+.menu .btn {
     padding-top: 95px;
     display: flex;
     flex-flow: column;
     align-items: flex-start;
 }
 
-.vista, .estudiantes, .profesores {
+.overview, .student, .teachers {
     color: #555357;
     font-size: 17px;
     width: 200px;
@@ -85,15 +85,15 @@ header .fa-bars {
     font-weight: 700;
 }
 
-.vista {
+.overview {
     border-top: 1px solid #555357;
 }
 
-.vista:focus, .estudiantes:focus, .profesores:focus, .chile:focus {
+.overview:focus, .student:focus, .teachers:focus, .chile:focus {
     outline: none;
 }
 
-.vista:hover, .estudiantes:hover, .profesores:hover, .chile:hover {
+.overview:hover, .student:hover, .teachers:hover, .chile:hover {
     background: #000;
     color: #fff;
 }
@@ -126,6 +126,7 @@ nav li a {
     display: block;
     text-align: center;
     border-top: 1px solid grey;
+    font-weight: bold;
 }
 
 nav li a:hover {
@@ -156,7 +157,7 @@ nav li ul li ul {
 }
 
 /*Graficos*/
-/*Primer grafico*/
+/*Primer grafico enrollment*/
 
 .graphics-one {
     /*outline: 1px solid green;*/
@@ -227,7 +228,7 @@ nav li ul li ul {
     padding: 20px;
 }
 
-/*Segundo grafico*/
+/*Segundo grafico achievement*/
 
 .students, .total {
     width: 100px;
@@ -247,7 +248,7 @@ nav li ul li ul {
     font-size: 60px;
 }
 
-/*Tercer grafico*/
+/*Tercer grafico net promoter score*/
 
 .graphics-second {
     width: 1050px;
@@ -317,11 +318,11 @@ nav li ul li ul {
     color: #faa719;
 }
 
-.percent h1:last-child {
-    color: #fff;
+.percent h1 span {
+    color: #f91f1f;
 }
 
-/*Cuarto grafico y quinto*/
+/*Graficos tech skills y life skills*/
 
 .graphics-third {
     /*outline: 1px solid green;*/
@@ -356,7 +357,7 @@ nav li ul li ul {
     font-size: 60px;
 }
 
-/*Quinto Grafico*/
+/*Graficos satisfaction, teacher y jedi*/
 
 .graphics-fourth {
     padding-bottom: 50px;
@@ -370,19 +371,21 @@ nav li ul li ul {
     background: #4d4e4f;
 }
 
-.satisfaction {
-    margin-left: 250px;
+.satisfaction, .teacher, .jedi {
     display: flex;
     flex-flow: column;
     align-items: center;
-    flex-wrap:
+}
+
+.satisfaction {
+    margin-left: 250px;
 }
 
 .jedi {
     margin-right: 30px;
 }
 
-.graphics-fourth H2 {
+.graphics-fourth h2 {
     width: 300px;
     font-size: 18px;
     color: #fff;
@@ -392,13 +395,13 @@ nav li ul li ul {
     text-align: center;
 }
 
-.graph-satisfaction {
+.graph-satisfaction, .graph-teacher, .graph-jedi {
     width: 250px;
     height: 250px;
     text-align: center;
 }
 
-.satisfaction h1 {
+.satisfaction h1, .teacher h1, .jedi h1 {
     width: 300px;
     text-align: center;
     background-color: #000;
