@@ -6,7 +6,6 @@
 console.log(data);
 
 // Primer grafico enrollment
-
 Morris.Bar({
   element: 'graph-enrollment',
   data: [
